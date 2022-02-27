@@ -8,7 +8,7 @@ public class TestController {
 
 	@GetMapping("/")
 	public String welcome() {
-		return "welcome";
+		return "welcome in the microservice";
 	}
 
 	@GetMapping("/test")
